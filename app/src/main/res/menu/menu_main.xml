@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.hb.notepad.activities.MainActivity">
+    <item android:id="@+id/action_delete_all"
+          android:title="@string/action_delete_all"
+          android:orderInCategory="1"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_exit_app"
+          android:title="@string/action_exit"
+          android:orderInCategory="2"
+          app:showAsAction="never"/>
+
+</menu>

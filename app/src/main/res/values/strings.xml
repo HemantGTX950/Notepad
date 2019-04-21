@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_delete_note">Delete Note</string>
+    <string name="action_save_note">Save</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="title">Title</string>
+    <string name="title_hint">Enter Title…</string>
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+</resources>
