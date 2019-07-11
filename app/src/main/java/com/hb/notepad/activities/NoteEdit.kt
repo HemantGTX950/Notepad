@@ -118,7 +118,7 @@ class NoteEdit : AppCompatActivity()  {
 
     }
     private fun saveNote(){
-        if(!(TextUtils.isEmpty(mBodyText.text) || TextUtils.isEmpty(mTitleText.text))){
+        if(!(TextUtils.isEmpty(mBodyText.text) )){
 
             val title = mTitleText.text.toString()
             val body = mBodyText.text.toString()

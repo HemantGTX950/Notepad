@@ -34,7 +34,7 @@ class NotesListAdapter internal constructor(
 
     override fun onBindViewHolder(p0: WordViewHolder, p1: Int) {
         val current = notes[p1]
-        p0.noteTitleView.text = current.title
+        p0.noteTitleView.text = if(current.title!="") current.title else current.body
         var formatter = SimpleDateFormat("MMM, dd")
         var dt = Date(notes[p1].time)
         p0.noteDateView.text = formatter.format(dt)
